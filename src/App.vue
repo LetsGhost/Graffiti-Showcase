@@ -41,9 +41,9 @@ const selectedImage = ref(null)
 const showScrollTop = ref(false)
 
 const images = [
-  { src: '/tags/tag1.jpg', date: '2025-06-10' },
-  { src: '/tags/tag2.jpg', date: '2025-06-07' },
-  { src: '/tags/tag3.jpg', date: '2025-05-28' },
+  { src: '/Graffiti-Showcase/tags/tag1.jpg', date: '2025-06-10' },
+  { src: '/Graffiti-Showcase/tags/tag2.jpg', date: '2025-06-07' },
+  { src: '/Graffiti-Showcase/tags/tag3.jpg', date: '2025-05-28' },
 ]
 
 const openModal = (src) => {
@@ -140,7 +140,7 @@ onUnmounted(() => {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: #000;
+  background: #e60073;
   border: none;
   color: white;
   font-size: 1.5rem;
