@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <header class="banner">
-      <h1>Graffiti Tag Showcase</h1>
+      <h1>Tags</h1>
     </header>
 
     <main class="gallery">
