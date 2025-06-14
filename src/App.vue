@@ -9,7 +9,6 @@
         v-for="(img, index) in images"
         :key="index"
         :src="img.src"
-        :date="img.date"
         @click="openModal(img.src)"
       />
     </main>
@@ -41,9 +40,15 @@ const selectedImage = ref(null)
 const showScrollTop = ref(false)
 
 const images = [
-  { src: '/Graffiti-Showcase/tags/tag1.jpg', date: '2025-06-10' },
-  { src: '/Graffiti-Showcase/tags/tag2.jpg', date: '2025-06-07' },
-  { src: '/Graffiti-Showcase/tags/tag3.jpg', date: '2025-05-28' },
+  { src: '/Graffiti-Showcase/tags/tag1G.jpg' },
+  { src: '/Graffiti-Showcase/tags/tag1GJ.jpg' },
+  { src: '/Graffiti-Showcase/tags/tag1J.jpg' },
+  { src: '/Graffiti-Showcase/tags/tag2G.jpg' },
+  { src: '/Graffiti-Showcase/tags/tag2GJ.jpg' },
+  { src: '/Graffiti-Showcase/tags/tag2J.jpg' },
+  { src: '/Graffiti-Showcase/tags/tag3J.jpg' },
+  { src: '/Graffiti-Showcase/tags/tag4J.jpg' },
+  { src: '/Graffiti-Showcase/tags/tag5J.jpg' },
 ]
 
 const openModal = (src) => {
