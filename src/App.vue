@@ -49,6 +49,7 @@ const images = [
   { src: '/Graffiti-Showcase/tags/tag3J.jpg' },
   { src: '/Graffiti-Showcase/tags/tag4J.jpg' },
   { src: '/Graffiti-Showcase/tags/tag5J.jpg' },
+  { src: '/Graffiti-Showcase/tags/tag6J.jpg' },
 ]
 
 const openModal = (src) => {
